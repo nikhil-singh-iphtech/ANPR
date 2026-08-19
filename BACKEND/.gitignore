@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Generated files
+uploads/*
+results/*
+logs/*
+
+# Python cache
+.pytest_cache/
+
+# OS
+.DS_Store
+
+# Large models
+models/*.pt
+models/*.onnx
+models/*.engine
+
+# Video
+*.mp4
+*.avi
+*.mov
+*.mkv
